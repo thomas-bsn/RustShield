@@ -29,6 +29,8 @@
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣙⠿⣿⣿⣟⣩⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣌⣱⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 
+Authors: Thomas B. & Axel C.
+
 RustShield v2 est la deuxième version majeure de notre système de détection d'intrusion (IDS) et de gestion des informations de sécurité (SIEM) écrit en Rust. Cette version améliore et étend les fonctionnalités de RustShield v1 en introduisant un système robuste basé sur l'architecture agent-serveur pour une surveillance et une analyse plus efficaces des activités réseau et système, ainsi qu'une détection avancée des comportements suspects et une réponse automatisée aux menaces.
 
 ## Caractéristiques de RustShield v2 :
