@@ -1,0 +1,16 @@
+{
+    "regex": "^(\\d+/\\d+/\\d+ \\d+:\\d+:\\d+) \\[(\\w+)\\] (\\d+)#(\\d+): \\*\\d+ (.+), client: ([^,]+), server: ([^,]+), request: \"([^\"]+)\", host: \"([^\"]+)\", referrer: \"([^\"]+)\"$",
+    "matches": {
+      "1": "timestamp",
+      "2": "log_level",
+      "3": "pid",
+      "4": "tid",
+      "5": "message",
+      "6": "client_ip",
+      "7": "server",
+      "8": "request",
+      "9": "host",
+      "10": "referrer"
+    }
+  }
+  

@@ -1,0 +1,5 @@
+193.45.67.89 [09/Jan/2024:12:21:15 +0000] "POST /login HTTP/1.1" 403 "rt=0.014" "https://example.com/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+102.54.98.123 [09/Jan/2024:12:22:32 +0000] "DELETE /user/12345 HTTP/1.1" 404 "rt=0.022" "https://mywebsite.com/user/delete" "Mozilla/5.0 (Linux; Android 10; SM-G973U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36"
+231.77.88.56 [09/Jan/2024:12:23:47 +0000] "PUT /api/v1/update/item HTTP/2.0" 500 "rt=0.031" "https://api.mysite.com/update" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)"
+54.67.98.234 [09/Jan/2024:12:24:05 +0000] "HEAD /assets/css/style.css HTTP/1.1" 304 "rt=0.004" "-" "curl/7.68.0"
+87.65.43.210 [09/Jan/2024:12:25:10 +0000] "OPTIONS /api/v1/query/data HTTP/1.1" 200 "rt=0.007" "https://api.querysite.com/request" "PostmanRuntime/7.26.8"

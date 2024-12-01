@@ -1,0 +1,21 @@
+0) Initialisation de l'agent et de la configuration:
+
+Chargez la configuration de l'agent à partir d'un fichier de configuration.
+
+1) Initialisation des Watchers:
+
+Pour chaque chemin dans watch_paths de la configuration, initialisez un "watcher" pour surveiller les modifications des fichiers ou répertoires.
+Réagissez aux notifications de modification pour ces chemins.
+    Filtrage des Logs:
+
+Lors de la réception d'un log, vérifiez s'il contient l'un des motifs de ignore_patterns. Si c'est le cas, ignorez-le.
+
+2) Parsing & normalisation des Logs:
+
+Parsez les logs reçus pour extraire les informations pertinentes.
+Transformez les logs dans un format standard ou normalisé pour faciliter le traitement ultérieur.
+
+3) Communication avec le Serveur:
+
+Si send_to_server est configuré, établissez une connexion sécurisée avec le serveur.
+Transmettez les logs, les alertes ou toute autre information pertinente au serveur pour une analyse ou un stockage ultérieur. Assurez-vous que les données sont cryptées pendant la transmission.

@@ -1,0 +1,26 @@
+title: BITSAdmin Download
+id: 0002
+status: experimental
+description: Detects command to download file using BITSAdmin, a built-in tool in Windows. This technique is used by several threat actors to download scripts or payloads on infected system.
+author: Axel C.
+date: 2024-01-01
+criticality: 50
+detection:
+  selection1:
+    process.name: bitsadmin.exe
+  selection2:
+    process.command_line|contains: ' /transfer '
+  selection3:
+    process.command_line|contains|all:
+    - '/addfile '
+    - http
+  selection4:
+    process.command_line|contains|all:
+    - copy
+    - bitsadmin.exe
+  selection5:
+    process.command_line|contains:
+    - download
+    - ftp
+    - \\
+  condition: (selection1 and (selection2 or selection3 or selection5)) or selection4

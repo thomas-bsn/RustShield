@@ -1,0 +1,5 @@
+Aug 1 10:45:01 myserver kernel: [12345.678901] CPU0: Package temperature above threshold, cpu clock throttled (total events = 1)
+Aug 1 10:45:02 myserver kernel: [12345.679123] CPU1: Core temperature above threshold, core clock throttled (total events = 2)
+Aug 1 10:45:03 myserver kernel: [12345.680456] eth0: link up
+Aug 1 10:45:04 myserver kernel: [12345.681789] usb 1-1: new high-speed USB device number 2 using ehci_hcd
+Aug 1 10:45:05 myserver kernel: [12345.682101] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)

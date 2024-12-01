@@ -1,0 +1,9 @@
+{
+    "regex": "type=(\\w+) msg=audit\\(([^:]+):\\d+\\): (.+)$",
+    "matches": {
+      "1": "type",
+      "2": "timestamp",
+      "3": "message"
+    }
+  }
+  

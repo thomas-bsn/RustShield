@@ -1,0 +1,18 @@
+title: Audit and Security Alerts
+id: audit_security_alerts
+status: experimental
+description: Detects audit and security alerts in logs.
+author: Your Name
+date: 2023-01-01
+logsource:
+  product: your_product_name
+  service: your_service_name
+detection:
+  keywords:
+    - "Tentative de connexion infructueuse"
+    - "Accès non autorisé détecté"
+    - "Alert : Détection de comportement suspect"
+  condition: keywords
+falsepositives:
+  - Known authorized access attempts
+level: high

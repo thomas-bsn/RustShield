@@ -1,0 +1,13 @@
+Jul 31 19:10:27 SRV-DEB-1 sshd[3388103]: Accepted password for flo from 192.168.200.6 port 55690 ssh2
+Jul 31 19:10:27 SRV-DEB-1 sshd[3388103]: pam_unix(sshd:session): session opened for user flo(uid=1000) by (uid=0)
+Jul 31 19:10:27 SRV-DEB-1 systemd-logind[597]: New session 10009 of user flo.
+Jul 31 19:22:49 SRV-DEB-1 sshd[3388513]: Invalid user mechant from 192.168.200.6 port 55813
+Jul 31 19:22:52 SRV-DEB-1 sshd[3388513]: pam_unix(sshd:auth): check pass; user unknown
+Jul 31 19:22:52 SRV-DEB-1 sshd[3388513]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.200.6
+Jul 31 19:22:54 SRV-DEB-1 sshd[3388513]: Failed password for invalid user mechant from 192.168.200.6 port 55813 ssh2
+Jul 31 19:23:12 SRV-DEB-1 sshd[3388600]: Disconnected from user baduser 192.168.200.7 port 55816
+Jul 31 19:25:33 SRV-DEB-1 sshd[3388701]: Received disconnect from 192.168.200.8 port 55822:11: Bye Bye [preauth]
+Jul 31 19:25:33 SRV-DEB-1 sshd[3388701]: Disconnected from 190.168.200.8 port 55822 [preauth]
+Jul 31 19:26:45 SRV-DEB-1 sshd[3388802]: Connection closed by authenticating user root 192.168.200.9 port 55830 [preauth]
+Jul 31 19:28:10 SRV-DEB-1 CRON[3388903]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 31 19:28:10 SRV-DEB-1 CRON[3388903]: pam_unix(cron:session): session closed for user root

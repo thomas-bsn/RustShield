@@ -1,0 +1,12 @@
+title: Loading of Kernel Module via Insmod
+id: 0004
+status: experimental
+description: Detects loading of kernel modules with insmod command.
+author: Axel C.
+date: 2024-01-01
+criticality: 90
+detection:
+  selection:
+    process.command_line|contains:
+      - insmod
+  condition: selection

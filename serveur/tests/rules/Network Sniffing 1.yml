@@ -1,0 +1,14 @@
+title: Network Sniffing 1
+id: 0006
+status: experimental
+description: Network sniffing refers to using the network interface on a system to monitor or capture information sent over a wired or wireless connection.
+author: Axel C.
+date: 2024-01-01
+criticality: 40
+detection:
+  selection:
+    process.command_line|contain|all:
+      - execve
+      - tcpdump
+      - -c
+  condition: selection

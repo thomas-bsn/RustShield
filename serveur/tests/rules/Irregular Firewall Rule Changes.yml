@@ -1,0 +1,14 @@
+title: Irregular Firewall Rule Changes
+id: 0005
+status: experimental
+description: Monitors for unexpected changes to firewall rules, which could weaken network security.
+author: Axel C.
+date: 2024-01-01
+criticality: 85
+detection:
+  selection:
+    process.command_line|contains:
+      - firewalld
+      - iptables
+      - ufw
+  condition: selection

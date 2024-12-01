@@ -1,0 +1,15 @@
+title: Suspicious Cron Job Creation or Modification
+id: 0010
+status: experimental
+description: Detects the creation or modification of cron jobs, which could be used for persistence or malicious activities. 
+author: Axel C.
+date: 2024-01-01
+criticality: 80
+detection:
+  selection:
+    process.command_line|contains:
+      - /etc/crontab
+    event.action|contains:
+      - created
+      - modified
+  condition: selection

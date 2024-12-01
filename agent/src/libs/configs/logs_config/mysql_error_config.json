@@ -1,0 +1,12 @@
+{
+    "regex": "^(\\d+-\\d+-\\d+T\\d+:\\d+:\\d+.\\d+Z) (\\d+) \\[(\\w+)\\] \\[(\\w+-\\d+)\\] \\[([^\\]]+)\\] (.+)$",
+    "matches": {
+      "1": "timestamp",
+      "2": "thread_id",
+      "3": "log_level",
+      "4": "error_code",
+      "5": "server_component",
+      "6": "message"
+    }
+  }
+  

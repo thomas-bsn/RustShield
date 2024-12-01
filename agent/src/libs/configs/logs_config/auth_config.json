@@ -1,0 +1,11 @@
+{
+    "regex": "^([^ ]+ [^ ]+ [^ ]+) ([^\\[]+)\\[([0-9]+)\\]: ([^:]+):? (.*)$",
+    "matches": {
+      "1": "timestamp",
+      "2": "server_process",
+      "3": "process_id",
+      "4": "message_type",
+      "5": "message_content"
+    }
+  }
+  

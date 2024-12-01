@@ -1,0 +1,4 @@
+Start-Date: 2021-08-01  10:45:01
+Commandline: apt-get install nginx
+Install: nginx:amd64 (1.144244.0-0ubuntu1)
+End-Date: 2021-08-01  10:45:31

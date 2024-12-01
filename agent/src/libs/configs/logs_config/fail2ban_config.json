@@ -1,0 +1,10 @@
+{
+    "regex": "^(\\d+-\\d+-\\d+ \\d+:\\d+:\\d+),\\d+ fail2ban\\.actions\\[\\d+\\]: (\\w+) \\[(\\w+)\\] (.+)$",
+    "matches": {
+      "1": "timestamp",
+      "2": "action",
+      "3": "jail",
+      "4": "message"
+    }
+  }
+  

@@ -1,0 +1,10 @@
+[
+  {
+    "error_code": "MY-0100068",
+    "log_level": "Warning",
+    "message": "CA certificate ca.pem is self signed.",
+    "server_component": "Server",
+    "thread_id": "0",
+    "timestamp": "2021-08-01T10:45:01.678901Z"
+  }
+]

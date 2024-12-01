@@ -1,0 +1,21 @@
+1) Recuperation des logs normalisés
+
+On va récupérer les logs normalisés à partir de l'agent qui va nous les communiqués
+
+2) Matching des Règles:
+
+Chargez les règles (peut-être à partir de fichiers SIGMA ou d'une autre source) que l'agent utilisera pour analyser les logs.
+Comparez chaque log normalisé aux règles chargées pour déterminer s'il y a des correspondances.
+Générez des alertes ou des notifications pour chaque correspondance trouvée.
+
+    3) Ajoutez des règles liées à l'HARDENING de l'ANSSI
+
+Collecte des Recommandations de l'ANSSI : Rechercher les guides et recommandations d'hardening de l'ANSSI.
+Création de Règles de Surveillance : Développer des règles basées sur les recommandations d'hardening pour la surveillance des logs.
+Tests et Intégration : Tester les règles pour l'exactitude et les intégrer dans le système de surveillance.
+
+4) Faire un Dashboard pour les Alertes et Logs (bonus)
+
+Conception et Développement : Concevoir et développer un tableau de bord utilisateur pour afficher les alertes et les logs.
+Intégration et Fonctionnalités : Intégrer le tableau de bord avec le backend et implémenter des fonctions de filtrage et de recherche.
+Déploiement et Retours Utilisateurs : Déployer le dashboard, recueillir les retours des utilisateurs et effectuer des ajustements selon les besoins.

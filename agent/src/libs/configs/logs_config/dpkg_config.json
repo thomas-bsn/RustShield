@@ -1,0 +1,11 @@
+{
+    "regex": "^(\\d+-\\d+-\\d+ \\d+:\\d+:\\d+) (\\w+) (\\w+) (\\w+):(.*)$",
+    "matches": {
+      "1": "timestamp",
+      "2": "status",
+      "3": "action",
+      "4": "package",
+      "5": "version"
+    }
+  }
+  

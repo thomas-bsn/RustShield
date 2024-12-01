@@ -1,0 +1,13 @@
+title: System Time Alterations
+id: 0009
+status: experimental
+description: Monitors for changes to the system time, which could indicate 
+author: Axel C.
+date: 2024-01-01
+criticality: 45
+detection:
+  selection:
+    process.command_line|contains|all:
+      - date
+      - ntpd
+  condition: selection

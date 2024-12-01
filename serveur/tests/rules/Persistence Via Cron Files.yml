@@ -1,0 +1,20 @@
+title: Persistence Via Cron Files
+id: 0012
+status: experimental
+description: Detects the creation of doas.conf file in linux host platform.
+author: Axel C.
+date: 2024-01-01
+criticality: 50
+detection:
+  selection:
+    process.command_line|contains:
+      - /etc/cron.d/
+      - /etc/cron.daily/
+      - /etc/cron.hourly/
+      - /etc/cron.monthly/
+      - /etc/cron.weekly/
+      - /var/spool/cron/crontabs/
+      - /etc/cron.allow
+      - /etc/cron.deny
+      - /etc/crontab
+  condition: selection

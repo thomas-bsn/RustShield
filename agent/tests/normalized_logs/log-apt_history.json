@@ -1,0 +1,18 @@
+[
+  {
+    "action": "Start-Date",
+    "details": "2021-08-01  10:45:01"
+  },
+  {
+    "action": "Commandline",
+    "details": "apt-get install nginx"
+  },
+  {
+    "action": "Install",
+    "details": "nginx:amd64 (1.144244.0-0ubuntu1)"
+  },
+  {
+    "action": "End-Date",
+    "details": "2021-08-01  10:45:31"
+  }
+]

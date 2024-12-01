@@ -1,0 +1,15 @@
+title: BAD IPs source - 01.2024
+id: 0002
+status: experimental
+description: List of bad IPs
+author: Axel C.
+date: 2024-01-01
+criticality: 80
+detection:
+  selection:
+    source.ip|contains:
+      - 14.202.110.158
+      - 156.236.75.33
+      - 194.33.191.13
+      - 124.223.190.92
+  condition: selection

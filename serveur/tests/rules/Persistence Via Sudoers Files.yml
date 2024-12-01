@@ -1,0 +1,12 @@
+title: Persistence Via Sudoers Files
+id: 0013
+status: experimental
+description: Detects creation of sudoers file or files in "sudoers.d" directory which can be used a potential method to persiste privileges for a specific user.
+author: Axel C.
+date: 2024-01-01
+criticality: 50
+detection:
+  selection:
+    process.command_line|contains:
+      - /etc/sudoers.d/
+  condition: selection

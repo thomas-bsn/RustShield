@@ -1,0 +1,57 @@
+[
+  {
+    "code": "403",
+    "date": "09/Jan/2024:12:21:15 +0000",
+    "ip": "193.45.66.89",
+    "method": "POST",
+    "path": "/login",
+    "referer": "https://example.com/login",
+    "rt": "0.014",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15",
+    "version": "HTTP/1.1"
+  },
+  {
+    "code": "404",
+    "date": "09/Jan/2024:12:22:32 +0000",
+    "ip": "102.54.98.123",
+    "method": "DELETE",
+    "path": "/user/12345",
+    "referer": "https://mywebsite.com/user/delete",
+    "rt": "0.022",
+    "ua": "Mozilla/5.0 (Linux; Android 10; SM-G973U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+    "version": "HTTP/1.1"
+  },
+  {
+    "code": "500",
+    "date": "09/Jan/2024:12:23:47 +0000",
+    "ip": "231.77.88.56",
+    "method": "PUT",
+    "path": "/api/v1/update/item",
+    "referer": "https://api.mysite.com/update",
+    "rt": "0.031",
+    "ua": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)",
+    "version": "HTTP/2.0"
+  },
+  {
+    "code": "304",
+    "date": "09/Jan/2024:12:24:05 +0000",
+    "ip": "54.67.98.234",
+    "method": "HEAD",
+    "path": "/assets/css/style.css",
+    "referer": "-",
+    "rt": "0.004",
+    "ua": "curl/7.68.0",
+    "version": "HTTP/1.1"
+  },
+  {
+    "code": "200",
+    "date": "09/Jan/2024:12:25:10 +0000",
+    "ip": "87.65.43.210",
+    "method": "OPTIONS",
+    "path": "/api/v1/query/data",
+    "referer": "https://api.querysite.com/request",
+    "rt": "0.007",
+    "ua": "PostmanRuntime/7.26.8",
+    "version": "HTTP/1.1"
+  }
+]

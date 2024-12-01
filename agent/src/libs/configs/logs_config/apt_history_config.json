@@ -1,0 +1,8 @@
+{
+    "regex": "^(Start-Date|End-Date|Commandline|Install|Remove): (.+)$",
+    "matches": {
+      "1": "action",
+      "2": "details"
+    }
+  }
+  

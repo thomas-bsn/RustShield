@@ -1,0 +1,13 @@
+title: Wget Creating Files in Tmp Directory
+id: 0017
+status: experimental
+description: Detects the use of wget to download content in a temporary directory such as "/tmp" or "/var/tmp"
+author: Axel C.
+date: 2024-01-01
+criticality: 70
+detection:
+  selection:
+    process.command_line|contains|all:
+      - /wget
+      - /tmp/
+  condition: selection

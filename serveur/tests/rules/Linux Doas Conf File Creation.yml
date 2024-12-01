@@ -1,0 +1,12 @@
+title: Linux Doas Conf File Creation
+id: 0011
+status: stable
+description: Detects the creation of doas.conf file in linux host platform.
+author: Axel C.
+date: 2024-01-01
+criticality: 50
+detection:
+  selection:
+    process.command_line:
+      - /etc/doas.conf
+  condition: selection

@@ -1,0 +1,17 @@
+title: eventvwr.msc - bypass-uac
+id: 0001
+status: experimental
+description: Adversaries may bypass UAC mechanisms to elevate process privileges on system. 
+author: Axel C.
+date: 2024-01-01
+criticality: 75
+detection:
+  selection:
+    action.id:
+      - "1"
+    process.command_line|contains|all:
+      - classes
+      - mscfile
+      - command
+      - eventvwr
+  condition: selection

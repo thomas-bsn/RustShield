@@ -1,0 +1,9 @@
+{
+    "regex": "^([^ ]+ [^ ]+ [^ ]+) ([^ ]+) kernel: \\[([0-9.]+)\\] \\[UFW BLOCK\\] (.+)$",
+    "matches": {
+      "1": "timestamp",
+      "2": "hostname",
+      "3": "uptime",
+      "4": "message"
+    }
+}

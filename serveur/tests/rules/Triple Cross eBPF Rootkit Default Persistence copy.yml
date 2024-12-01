@@ -1,0 +1,12 @@
+title: Triple Cross eBPF Rootkit Default Persistence
+id: 0016
+status: experimental
+description: Detects the creation of "ebpfbackdoor" files in both "cron.d" and "sudoers.d" directories. Which both are related to the TripleCross persistence method
+author: Axel C.
+date: 2024-01-01
+criticality: 90
+detection:
+  selection:
+    process.command_line|contains:
+      - ebpfbackdoor
+  condition: selection

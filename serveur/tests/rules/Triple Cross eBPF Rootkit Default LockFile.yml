@@ -1,0 +1,12 @@
+title: Triple Cross eBPF Rootkit Default LockFile
+id: 0015
+status: experimental
+description: Detects the creation of the file "rootlog" which is used by the TripleCross rootkit as a way to check if the backdoor is already running.
+author: Axel C.
+date: 2024-01-01
+criticality: 90
+detection:
+  selection:
+    process.command_line|contains:
+      - tmp/rootlog
+  condition: selection

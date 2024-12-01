@@ -1,0 +1,12 @@
+title: Unusual Network Interface Activation
+id: 0008
+status: experimental
+description: Alerts on the activation of rarely used network interfaces, which might indicate unauthorized network access.
+author: Axel C.
+date: 2024-01-01
+criticality: 60
+detection:
+  selection:
+    process.command_line|contains:
+      - ifup
+  condition: selection

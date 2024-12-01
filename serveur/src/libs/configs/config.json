@@ -1,0 +1,7 @@
+{
+    "normalized_log_path": "tests/normalized_logs/",
+    "rules_path": "tests/rules/",
+    "server_ip": "localhost:7331",
+    "ignore_patterns": ["debug", "info"],
+    "current_log_path": ""
+}

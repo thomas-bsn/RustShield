@@ -1,0 +1,8 @@
+{
+    "watch_paths": "tests/logs/",
+    "normalized_log_path": "tests/normalized_logs/",
+    "logs_config": "src/libs/configs/logs_config/",
+    "server_ip": "localhost:7331",
+    "check_frequency_seconds": 10,
+    "ignore_patterns": ["debug", "info"]
+}

@@ -1,0 +1,13 @@
+title: Potentially Suspicious Shell Script Creation in Profile Folder
+id: 0014
+status: experimental
+description: Detects the creation of shell scripts under the "profile.d" path.
+author: Axel C.
+date: 2024-01-01
+criticality: 30
+detection:
+  selection:
+    process.command_line|contains|all:
+      - /etc/profile.d/
+      - .sh
+  condition: selection
